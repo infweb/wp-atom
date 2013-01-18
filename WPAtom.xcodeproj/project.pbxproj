@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9416CD45734AFAB4DF47F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B774899A49E5480E89073425 /* libPods.a */; };
 		E2586D0F16A82C0E0026B7A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2586D0E16A82C0E0026B7A9 /* UIKit.framework */; };
 		E2586D1116A82C0E0026B7A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2586D1016A82C0E0026B7A9 /* Foundation.framework */; };
 		E2586D1316A82C0E0026B7A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2586D1216A82C0E0026B7A9 /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		E2586D2516A82C0E0026B7A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2586D2416A82C0E0026B7A9 /* Default-568h@2x.png */; };
 		E2586D2816A82C0E0026B7A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2586D2616A82C0E0026B7A9 /* MainStoryboard.storyboard */; };
 		E2586D2B16A82C0E0026B7A9 /* WPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2586D2A16A82C0E0026B7A9 /* WPViewController.m */; };
+		E29E0E3916A89FF800482AFB /* WPApi.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E0E3816A89FF800482AFB /* WPApi.m */; };
+		E29E0E3D16A8C5EE00482AFB /* WPAtomHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E0E3C16A8C5EE00482AFB /* WPAtomHandler.m */; };
+		E29E0E4016A8D4A300482AFB /* WPPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E0E3F16A8D4A300482AFB /* WPPostViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCB0A5ADCDF457C8F61AC44 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B774899A49E5480E89073425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2586D0A16A82C0E0026B7A9 /* WPAtom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPAtom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2586D0E16A82C0E0026B7A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2586D1016A82C0E0026B7A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,12 @@
 		E2586D2716A82C0E0026B7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E2586D2916A82C0E0026B7A9 /* WPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPViewController.h; sourceTree = "<group>"; };
 		E2586D2A16A82C0E0026B7A9 /* WPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPViewController.m; sourceTree = "<group>"; };
+		E29E0E3716A89FF800482AFB /* WPApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPApi.h; sourceTree = "<group>"; };
+		E29E0E3816A89FF800482AFB /* WPApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPApi.m; sourceTree = "<group>"; };
+		E29E0E3B16A8C5EE00482AFB /* WPAtomHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAtomHandler.h; sourceTree = "<group>"; };
+		E29E0E3C16A8C5EE00482AFB /* WPAtomHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAtomHandler.m; sourceTree = "<group>"; };
+		E29E0E3E16A8D4A300482AFB /* WPPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPostViewController.h; sourceTree = "<group>"; };
+		E29E0E3F16A8D4A300482AFB /* WPPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPostViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 				E2586D0F16A82C0E0026B7A9 /* UIKit.framework in Frameworks */,
 				E2586D1116A82C0E0026B7A9 /* Foundation.framework in Frameworks */,
 				E2586D1316A82C0E0026B7A9 /* CoreGraphics.framework in Frameworks */,
+				1A9416CD45734AFAB4DF47F1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 				E2586D1416A82C0E0026B7A9 /* WPAtom */,
 				E2586D0D16A82C0E0026B7A9 /* Frameworks */,
 				E2586D0B16A82C0E0026B7A9 /* Products */,
+				0BCB0A5ADCDF457C8F61AC44 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +90,7 @@
 				E2586D0E16A82C0E0026B7A9 /* UIKit.framework */,
 				E2586D1016A82C0E0026B7A9 /* Foundation.framework */,
 				E2586D1216A82C0E0026B7A9 /* CoreGraphics.framework */,
+				B774899A49E5480E89073425 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,6 +104,12 @@
 				E2586D2916A82C0E0026B7A9 /* WPViewController.h */,
 				E2586D2A16A82C0E0026B7A9 /* WPViewController.m */,
 				E2586D1516A82C0E0026B7A9 /* Supporting Files */,
+				E29E0E3716A89FF800482AFB /* WPApi.h */,
+				E29E0E3816A89FF800482AFB /* WPApi.m */,
+				E29E0E3B16A8C5EE00482AFB /* WPAtomHandler.h */,
+				E29E0E3C16A8C5EE00482AFB /* WPAtomHandler.m */,
+				E29E0E3E16A8D4A300482AFB /* WPPostViewController.h */,
+				E29E0E3F16A8D4A300482AFB /* WPPostViewController.m */,
 			);
 			path = WPAtom;
 			sourceTree = "<group>";
@@ -117,6 +138,7 @@
 				E2586D0616A82C0E0026B7A9 /* Sources */,
 				E2586D0716A82C0E0026B7A9 /* Frameworks */,
 				E2586D0816A82C0E0026B7A9 /* Resources */,
+				2494DF9F8E3D4C5CBC240E12 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +191,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2494DF9F8E3D4C5CBC240E12 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2586D0616A82C0E0026B7A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -177,6 +216,9 @@
 				E2586D1B16A82C0E0026B7A9 /* main.m in Sources */,
 				E2586D1F16A82C0E0026B7A9 /* WPAppDelegate.m in Sources */,
 				E2586D2B16A82C0E0026B7A9 /* WPViewController.m in Sources */,
+				E29E0E3916A89FF800482AFB /* WPApi.m in Sources */,
+				E29E0E3D16A8C5EE00482AFB /* WPAtomHandler.m in Sources */,
+				E29E0E4016A8D4A300482AFB /* WPPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +296,7 @@
 		};
 		E2586D2F16A82C0E0026B7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCB0A5ADCDF457C8F61AC44 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPAtom/WPAtom-Prefix.pch";
@@ -265,6 +308,7 @@
 		};
 		E2586D3016A82C0E0026B7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCB0A5ADCDF457C8F61AC44 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPAtom/WPAtom-Prefix.pch";
@@ -293,6 +337,7 @@
 				E2586D3016A82C0E0026B7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
